@@ -1,0 +1,79 @@
+name: forte_life
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.3+15
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity: ^2.0.2
+  cached_network_image: ^2.0.0
+  cupertino_icons: ^1.0.0
+  dio: ^3.0.9
+  flutter_page_indicator: ^0.0.3
+  flutter_svg: ^0.19.1
+  flutter_xlider: ^3.4.0
+  google_fonts: ^1.1.1
+  provider: ^4.0.4
+  rxdart: ^0.23.1
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
+  image_picker: ^0.6.7+14
+  pinput: ^0.2.6
+  multi_image_picker: ^4.7.14
+  path_provider: ^1.6.24
+  path: ^1.7.0
+  firebase_core: ^0.5.3
+  firebase_messaging: ^8.0.0-dev.10
+  badges: ^1.1.6
+  shared_preferences: ^0.5.12+4
+  flutter_app_badger: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.0
+  flutter_launcher_name: ^0.0.1
+  flutter_native_splash: ^0.1.9
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "assets/images/app_icon.jpg"
+#run: flutter pub run flutter_launcher_icons:main
+flutter_launcher_name:
+  name: "Форте Лайф"
+#run: flutter pub run flutter_launcher_name:main
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/svg/programs.svg
+    - assets/svg/news.svg
+    - assets/svg/info.svg
+    - assets/svg/logo.svg
+    - assets/svg/profile.svg
+    - assets/svg/payment.svg
+    - assets/svg/credit_card.svg
+    - assets/svg/success.svg
+    - assets/svg/error.svg
+    - assets/svg/promo.svg
+    - assets/svg/chat.svg
+    - assets/images/arm_and_house.png
+    - assets/images/house_for_money.png
+    - assets/images/international_house.png
+    - assets/images/profile1.png
+    - assets/images/profile2.png
+    - assets/images/profile3.png
+    - assets/info/
+    - assets/news/
+    - assets/programs/
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/RobotoMono.ttf
